@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA24D6071D1F02CF0026DF48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */; };
+		CA24D6091D1F02CF0026DF48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24D6081D1F02CF0026DF48 /* ViewController.swift */; };
+		CA24D60C1D1F02CF0026DF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA24D60A1D1F02CF0026DF48 /* Main.storyboard */; };
+		CA24D60E1D1F02CF0026DF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA24D60D1D1F02CF0026DF48 /* Assets.xcassets */; };
+		CA24D6111D1F02CF0026DF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA24D60F1D1F02CF0026DF48 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA24D6031D1F02CF0026DF48 /* Geofitti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geofitti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA24D6081D1F02CF0026DF48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA24D60B1D1F02CF0026DF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA24D60D1D1F02CF0026DF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA24D6101D1F02CF0026DF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA24D6121D1F02CF0026DF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA24D6001D1F02CF0026DF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA24D5FA1D1F02CF0026DF48 = {
+			isa = PBXGroup;
+			children = (
+				CA24D6051D1F02CF0026DF48 /* Geofitti */,
+				CA24D6041D1F02CF0026DF48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA24D6041D1F02CF0026DF48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA24D6031D1F02CF0026DF48 /* Geofitti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA24D6051D1F02CF0026DF48 /* Geofitti */ = {
+			isa = PBXGroup;
+			children = (
+				CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */,
+				CA24D6081D1F02CF0026DF48 /* ViewController.swift */,
+				CA24D60A1D1F02CF0026DF48 /* Main.storyboard */,
+				CA24D60D1D1F02CF0026DF48 /* Assets.xcassets */,
+				CA24D60F1D1F02CF0026DF48 /* LaunchScreen.storyboard */,
+				CA24D6121D1F02CF0026DF48 /* Info.plist */,
+			);
+			path = Geofitti;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA24D6021D1F02CF0026DF48 /* Geofitti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA24D6151D1F02CF0026DF48 /* Build configuration list for PBXNativeTarget "Geofitti" */;
+			buildPhases = (
+				CA24D5FF1D1F02CF0026DF48 /* Sources */,
+				CA24D6001D1F02CF0026DF48 /* Frameworks */,
+				CA24D6011D1F02CF0026DF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geofitti;
+			productName = Geofitti;
+			productReference = CA24D6031D1F02CF0026DF48 /* Geofitti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA24D5FB1D1F02CF0026DF48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Geofitti;
+				TargetAttributes = {
+					CA24D6021D1F02CF0026DF48 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CA24D5FE1D1F02CF0026DF48 /* Build configuration list for PBXProject "Geofitti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA24D5FA1D1F02CF0026DF48;
+			productRefGroup = CA24D6041D1F02CF0026DF48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA24D6021D1F02CF0026DF48 /* Geofitti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA24D6011D1F02CF0026DF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA24D6111D1F02CF0026DF48 /* LaunchScreen.storyboard in Resources */,
+				CA24D60E1D1F02CF0026DF48 /* Assets.xcassets in Resources */,
+				CA24D60C1D1F02CF0026DF48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA24D5FF1D1F02CF0026DF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA24D6091D1F02CF0026DF48 /* ViewController.swift in Sources */,
+				CA24D6071D1F02CF0026DF48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA24D60A1D1F02CF0026DF48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA24D60B1D1F02CF0026DF48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA24D60F1D1F02CF0026DF48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA24D6101D1F02CF0026DF48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA24D6131D1F02CF0026DF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA24D6141D1F02CF0026DF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA24D6161D1F02CF0026DF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Geofitti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA24D6171D1F02CF0026DF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Geofitti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA24D5FE1D1F02CF0026DF48 /* Build configuration list for PBXProject "Geofitti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA24D6131D1F02CF0026DF48 /* Debug */,
+				CA24D6141D1F02CF0026DF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA24D6151D1F02CF0026DF48 /* Build configuration list for PBXNativeTarget "Geofitti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA24D6161D1F02CF0026DF48 /* Debug */,
+				CA24D6171D1F02CF0026DF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA24D5FB1D1F02CF0026DF48 /* Project object */;
+}
