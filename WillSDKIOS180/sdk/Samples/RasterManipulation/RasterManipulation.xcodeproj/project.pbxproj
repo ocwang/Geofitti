@@ -19,6 +19,7 @@
 		32C639391A93777500ACD1B8 /* WILLCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C639381A93777500ACD1B8 /* WILLCore.framework */; };
 		32EFD35A1BFB81050047ACFB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EFD3591BFB81050047ACFB /* libc++.tbd */; };
 		32EFD35C1BFB81090047ACFB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EFD35B1BFB81090047ACFB /* libz.tbd */; };
+		E78F15AD1D1F3B970025BE55 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = E78F15AC1D1F3B970025BE55 /* pizza.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		32C639381A93777500ACD1B8 /* WILLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WILLCore.framework; path = ../../WILLCore.framework; sourceTree = "<group>"; };
 		32EFD3591BFB81050047ACFB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		32EFD35B1BFB81090047ACFB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		E78F15AC1D1F3B970025BE55 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		321843231A2F430C00DF20CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E78F15AC1D1F3B970025BE55 /* pizza.png */,
 				321843511A2F46F300DF20CD /* img.jpg */,
 				321843241A2F430C00DF20CD /* Info.plist */,
 				321843251A2F430C00DF20CD /* main.m */,
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78F15AD1D1F3B970025BE55 /* pizza.png in Resources */,
 				321843521A2F46F300DF20CD /* img.jpg in Resources */,
 				3218432F1A2F430C00DF20CD /* Main.storyboard in Resources */,
 				321843341A2F430C00DF20CD /* LaunchScreen.xib in Resources */,

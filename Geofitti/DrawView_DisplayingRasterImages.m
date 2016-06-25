@@ -71,7 +71,10 @@
         strokesLayer = [willContext layerWithWidth:viewLayer.width andHeight:viewLayer.height andScaleFactor:viewLayer.scaleFactor andUseTextureStorage:YES];
         
         UIImage* img = [UIImage imageNamed:@"pizza.png"];
-        imageLayer = [willContext layerWithWidth:img.size.width andHeight:img.size.height andScaleFactor:img.scale andUseTextureStorage:YES];
+        imageLayer = [willContext layerWithWidth:self.frame.size.width
+                                       andHeight:self.frame.size.height
+                                  andScaleFactor:img.scale
+                            andUseTextureStorage:YES];
         [willContext setTarget:imageLayer];
         [willContext writePixelsInCurrentTargetFromUIImage:img];
         
@@ -88,7 +91,7 @@
         strokeRenderer.brush = pathBrush;
         strokeRenderer.stride = pathStride;
         strokeRenderer.width = 1.25;
-        strokeRenderer.color = [UIColor blueColor];
+        strokeRenderer.color = [UIColor redColor];
     }
 }
 
