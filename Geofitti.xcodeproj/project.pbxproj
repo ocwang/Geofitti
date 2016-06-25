@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBEBC1C3FDE6AEBC2CBDE17D /* Pods_Geofitti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F959437B711E13A745017C9 /* Pods_Geofitti.framework */; };
 		CA24D6071D1F02CF0026DF48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */; };
 		CA24D6091D1F02CF0026DF48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24D6081D1F02CF0026DF48 /* ViewController.swift */; };
 		CA24D60C1D1F02CF0026DF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA24D60A1D1F02CF0026DF48 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1484B38EE15C986C8A200E31 /* Pods-Geofitti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geofitti.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geofitti/Pods-Geofitti.release.xcconfig"; sourceTree = "<group>"; };
+		7F959437B711E13A745017C9 /* Pods_Geofitti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geofitti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA24D6031D1F02CF0026DF48 /* Geofitti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geofitti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA24D6081D1F02CF0026DF48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		CA24D60D1D1F02CF0026DF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA24D6101D1F02CF0026DF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA24D6121D1F02CF0026DF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6655E6B14948B4727AAE5C /* Pods-Geofitti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geofitti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geofitti/Pods-Geofitti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEBC1C3FDE6AEBC2CBDE17D /* Pods_Geofitti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18232E88E28F2A84D2ECE12E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F959437B711E13A745017C9 /* Pods_Geofitti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA24D5FA1D1F02CF0026DF48 = {
 			isa = PBXGroup;
 			children = (
 				CA24D6051D1F02CF0026DF48 /* Geofitti */,
 				CA24D6041D1F02CF0026DF48 /* Products */,
+				D584A8B87C91A65FA8A54C17 /* Pods */,
+				18232E88E28F2A84D2ECE12E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = Geofitti;
 			sourceTree = "<group>";
 		};
+		D584A8B87C91A65FA8A54C17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6655E6B14948B4727AAE5C /* Pods-Geofitti.debug.xcconfig */,
+				1484B38EE15C986C8A200E31 /* Pods-Geofitti.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA24D6151D1F02CF0026DF48 /* Build configuration list for PBXNativeTarget "Geofitti" */;
 			buildPhases = (
+				AE4806BFC2D493DEA52CC5AF /* [CP] Check Pods Manifest.lock */,
 				CA24D5FF1D1F02CF0026DF48 /* Sources */,
 				CA24D6001D1F02CF0026DF48 /* Frameworks */,
 				CA24D6011D1F02CF0026DF48 /* Resources */,
+				59B7BF49DA7DC571BC0863E5 /* [CP] Embed Pods Frameworks */,
+				2421ADA854A0B197C7C385B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2421ADA854A0B197C7C385B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geofitti/Pods-Geofitti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B7BF49DA7DC571BC0863E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geofitti/Pods-Geofitti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4806BFC2D493DEA52CC5AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA24D5FF1D1F02CF0026DF48 /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		CA24D6161D1F02CF0026DF48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6655E6B14948B4727AAE5C /* Pods-Geofitti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Geofitti/Info.plist;
@@ -258,6 +334,7 @@
 		};
 		CA24D6171D1F02CF0026DF48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1484B38EE15C986C8A200E31 /* Pods-Geofitti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Geofitti/Info.plist;
@@ -286,6 +363,7 @@
 				CA24D6171D1F02CF0026DF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
