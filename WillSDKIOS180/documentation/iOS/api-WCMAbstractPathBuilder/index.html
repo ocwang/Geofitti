@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>WCMAbstractPathBuilder Class Reference | WILL SDK Docs</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://localhost/will_docs_instance1/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://localhost/will_docs_instance1/wp-content/themes/will-doc/js/html5.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" href="../../wp-content/themes/will-doc/css/style.css">
+	<link rel="stylesheet" href="../../wp-content/themes/will-doc/css/accordionmenu.css">
+
+	<script src="../../wp-content/themes/will-doc/js/jquery.min.js"></script>
+	<script src="../../wp-content/themes/will-doc/js/sidebar.js"></script>
+
+	<link rel="stylesheet" href="../../wp-content/themes/will-doc/css/highlight.css">
+	<script src="../../wp-content/themes/will-doc/js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+	<header>
+		<div class="title">
+			<div>WILL &trade;</div>
+			<div>sdk documentation</div>
+		</div>
+		<!--
+		<div id="searchbox">
+			<input class="typeahead" type="text" placeholder="{{ search_text }}">
+		</div>
+-->
+	</header>
+
+	<div id="sitewrapper">
+<div id="sidebar">
+	<nav class="accordion">
+
+				<h1 class="do-not-cause-collapse" title="General Concepts">
+
+			General Concepts
+			</h1>
+
+							<div class="active-menu never-close">
+					<h2 class="not-collapsible" title="Architectural Overview">
+
+								<a href="../../general-concepts/architecture/index.html"
+											>Architectural Overview</a>
+					
+			</h2>
+
+						<h2 class="not-collapsible" title="Generating ink content">
+
+								<a href="../../general-concepts/path-building/index.html"
+											>Generating ink content</a>
+					
+			</h2>
+
+						<h2 class="not-collapsible" title="Rendering ink content">
+
+								<a href="../../general-concepts/rasterizer/index.html"
+											>Rendering ink content</a>
+					
+			</h2>
+
+						<h2 class="not-collapsible" title="Encoding and decoding ink content">
+
+								<a href="../../general-concepts/serialization/index.html"
+											>Encoding and decoding ink content</a>
+					
+			</h2>
+
+						<h2 class="not-collapsible" title="Exchanging ink content">
+
+								<a href="../../general-concepts/file-format/index.html"
+											>Exchanging ink content</a>
+					
+			</h2>
+
+							</div>
+							<h1 title="iOS SDK">
+
+			iOS SDK
+			</h1>
+
+							<div>
+					<h2 title="Getting started">
+
+								<a href="../getting-started/index.html"
+											>Getting started</a>
+					
+			</h2>
+
+						<h2 title="Release Notes">
+
+								<a href="../release-notes/index.html"
+											>Release Notes</a>
+					
+			</h2>
+
+						<h2 title="Tutorials Overview">
+
+								<a href="../tutorials/index.html"
+											>Tutorials Overview</a>
+					
+			</h2>
+
+							<div>
+					<h3 title="Tutorial 1: Drawing with touch">
+
+								<a href="../tutorials-tutorial1/index.html"
+											>Tutorial 1: Drawing with touch</a>
+					
+			</h3>
+
+							<div>
+					<h4 title="Part 1: Setting up the ink engine">
+
+								<a href="../tutorials-tutorial1-part1/index.html"
+											>Part 1: Setting up the ink engine</a>
+					
+			</h4>
+
+						<h4 title="Part 2: Building paths from touch input">
+
+								<a href="../tutorials-tutorial1-part2/index.html"
+											>Part 2: Building paths from touch input</a>
+					
+			</h4>
+
+						<h4 title="Part 3: Smoothing paths">
+
+								<a href="../tutorials-tutorial1-part3/index.html"
+											>Part 3: Smoothing paths</a>
+					
+			</h4>
+
+						<h4 title="Part 4: Drawing semi-transparent strokes">
+
+								<a href="../tutorials-tutorial1-part4/index.html"
+											>Part 4: Drawing semi-transparent strokes</a>
+					
+			</h4>
+
+						<h4 title="Part 5: Drawing preliminary paths">
+
+								<a href="../tutorials-tutorial1-part5/index.html"
+											>Part 5: Drawing preliminary paths</a>
+					
+			</h4>
+
+						<h4 title="Part 6: Using a particle brush">
+
+								<a href="../tutorials-tutorial1-part6/index.html"
+											>Part 6: Using a particle brush</a>
+					
+			</h4>
+
+						<h4 title="Part 7: Generating a Bezier path">
+
+								<a href="../tutorials-tutorial1-part7/index.html"
+											>Part 7: Generating a Bezier path</a>
+					
+			</h4>
+
+							</div>
+							<h3 title="Tutorial 2: Encoding and decoding strokes">
+
+								<a href="../tutorials-tutorial2/index.html"
+											>Tutorial 2: Encoding and decoding strokes</a>
+					
+			</h3>
+
+							<div>
+					<h4 title="Part 1: Creating a stroke model">
+
+								<a href="../tutorials-tutorial2-part1/index.html"
+											>Part 1: Creating a stroke model</a>
+					
+			</h4>
+
+						<h4 title="Part 2: Serializing and deserializing strokes">
+
+								<a href="../tutorials-tutorial2-part2/index.html"
+											>Part 2: Serializing and deserializing strokes</a>
+					
+			</h4>
+
+							</div>
+							<h3 title="Tutorial 3: Erasing strokes">
+
+								<a href="../tutorials-tutorial3/index.html"
+											>Tutorial 3: Erasing strokes</a>
+					
+			</h3>
+
+							<div>
+					<h4 title="Part 1: Extending the stroke model">
+
+								<a href="../tutorials-tutorial3-part1/index.html"
+											>Part 1: Extending the stroke model</a>
+					
+			</h4>
+
+						<h4 title="Part 2: Creating an eraser">
+
+								<a href="../tutorials-tutorial3-part2/index.html"
+											>Part 2: Creating an eraser</a>
+					
+			</h4>
+
+						<h4 title="Part 3: Erasing parts of strokes">
+
+								<a href="../tutorials-tutorial3-part3/index.html"
+											>Part 3: Erasing parts of strokes</a>
+					
+			</h4>
+
+							</div>
+							<h3 title="Tutorial 4: Selecting strokes">
+
+								<a href="../tutorials-tutorial4/index.html"
+											>Tutorial 4: Selecting strokes</a>
+					
+			</h3>
+
+							<div>
+					<h4 title="Part 1: Selecting whole strokes">
+
+								<a href="../tutorials-tutorial4-part1/index.html"
+											>Part 1: Selecting whole strokes</a>
+					
+			</h4>
+
+						<h4 title="Part 2: Selecting parts of strokes">
+
+								<a href="../tutorials-tutorial4-part2/index.html"
+											>Part 2: Selecting parts of strokes</a>
+					
+			</h4>
+
+							</div>
+							<h3 title="Tutorial 5: Working with rasters">
+
+								<a href="../tutorials-tutorial5/index.html"
+											>Tutorial 5: Working with rasters</a>
+					
+			</h3>
+
+							<div>
+					<h4 title="Part 1: Displaying raster images">
+
+								<a href="../tutorials-tutorial5-part1/index.html"
+											>Part 1: Displaying raster images</a>
+					
+			</h4>
+
+						<h4 title="Part 2: Creating image masks">
+
+								<a href="../tutorials-tutorial5-part2/index.html"
+											>Part 2: Creating image masks</a>
+					
+			</h4>
+
+							</div>
+								</div>
+							<h2 title="API Reference">
+
+			API Reference
+			</h2>
+
+							<div>
+					<h3 title="Classes">
+
+			Classes
+			</h3>
+
+							<div>
+					<h4 title="WCMAbstractPathBuilder">
+
+								<a href="index.html"
+						 class="selected"					>WCMAbstractPathBuilder</a>
+					
+			</h4>
+
+						<h4 title="WCMBezierPathUtils">
+
+								<a href="../api-WCMBezierPathUtils/index.html"
+											>WCMBezierPathUtils</a>
+					
+			</h4>
+
+						<h4 title="WCMCGRectVector">
+
+								<a href="../api-WCMCGRectVector/index.html"
+											>WCMCGRectVector</a>
+					
+			</h4>
+
+						<h4 title="WCMDirectStrokeBrush">
+
+								<a href="../api-WCMDirectStrokeBrush/index.html"
+											>WCMDirectStrokeBrush</a>
+					
+			</h4>
+
+						<h4 title="WCMDocument">
+
+								<a href="../api-WCMDocument/index.html"
+											>WCMDocument</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentContentType">
+
+								<a href="../api-WCMDocumentContentType/index.html"
+											>WCMDocumentContentType</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentProperties">
+
+								<a href="../api-WCMDocumentProperties/index.html"
+											>WCMDocumentProperties</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentResource">
+
+								<a href="../api-WCMDocumentResource/index.html"
+											>WCMDocumentResource</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentSection">
+
+								<a href="../api-WCMDocumentSection/index.html"
+											>WCMDocumentSection</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentSectionContainer">
+
+								<a href="../api-WCMDocumentSectionContainer/index.html"
+											>WCMDocumentSectionContainer</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentSectionElement">
+
+								<a href="../api-WCMDocumentSectionElement/index.html"
+											>WCMDocumentSectionElement</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentSectionGroup">
+
+								<a href="../api-WCMDocumentSectionGroup/index.html"
+											>WCMDocumentSectionGroup</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentSectionImage">
+
+								<a href="../api-WCMDocumentSectionImage/index.html"
+											>WCMDocumentSectionImage</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentSectionPaths">
+
+								<a href="../api-WCMDocumentSectionPaths/index.html"
+											>WCMDocumentSectionPaths</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentSectionRect">
+
+								<a href="../api-WCMDocumentSectionRect/index.html"
+											>WCMDocumentSectionRect</a>
+					
+			</h4>
+
+						<h4 title="WCMDocumentSectionView">
+
+								<a href="../api-WCMDocumentSectionView/index.html"
+											>WCMDocumentSectionView</a>
+					
+			</h4>
+
+						<h4 title="WCMFloatVector">
+
+								<a href="../api-WCMFloatVector/index.html"
+											>WCMFloatVector</a>
+					
+			</h4>
+
+						<h4 title="WCMFloatVectorPointer">
+
+								<a href="../api-WCMFloatVectorPointer/index.html"
+											>WCMFloatVectorPointer</a>
+					
+			</h4>
+
+						<h4 title="WCMInkDecoder">
+
+								<a href="../api-WCMInkDecoder/index.html"
+											>WCMInkDecoder</a>
+					
+			</h4>
+
+						<h4 title="WCMInkEncoder">
+
+								<a href="../api-WCMInkEncoder/index.html"
+											>WCMInkEncoder</a>
+					
+			</h4>
+
+						<h4 title="WCMIntVector">
+
+								<a href="../api-WCMIntVector/index.html"
+											>WCMIntVector</a>
+					
+			</h4>
+
+						<h4 title="WCMIntersector">
+
+								<a href="../api-WCMIntersector/index.html"
+											>WCMIntersector</a>
+					
+			</h4>
+
+						<h4 title="WCMLayer">
+
+								<a href="../api-WCMLayer/index.html"
+											>WCMLayer</a>
+					
+			</h4>
+
+						<h4 title="WCMMultiChannelSmoothener">
+
+								<a href="../api-WCMMultiChannelSmoothener/index.html"
+											>WCMMultiChannelSmoothener</a>
+					
+			</h4>
+
+						<h4 title="WCMPaintDecoder">
+
+								<a href="../api-WCMPaintDecoder/index.html"
+											>WCMPaintDecoder</a>
+					
+			</h4>
+
+						<h4 title="WCMPaintEncoder">
+
+								<a href="../api-WCMPaintEncoder/index.html"
+											>WCMPaintEncoder</a>
+					
+			</h4>
+
+						<h4 title="WCMParticlePaint">
+
+								<a href="../api-WCMParticlePaint/index.html"
+											>WCMParticlePaint</a>
+					
+			</h4>
+
+						<h4 title="WCMParticleStrokeBrush">
+
+								<a href="../api-WCMParticleStrokeBrush/index.html"
+											>WCMParticleStrokeBrush</a>
+					
+			</h4>
+
+						<h4 title="WCMPathAppendResult">
+
+								<a href="../api-WCMPathAppendResult/index.html"
+											>WCMPathAppendResult</a>
+					
+			</h4>
+
+						<h4 title="WCMPressurePathBuilder">
+
+								<a href="../api-WCMPressurePathBuilder/index.html"
+											>WCMPressurePathBuilder</a>
+					
+			</h4>
+
+						<h4 title="WCMRIFFChunk">
+
+								<a href="../api-WCMRIFFChunk/index.html"
+											>WCMRIFFChunk</a>
+					
+			</h4>
+
+						<h4 title="WCMRIFFDecoder">
+
+								<a href="../api-WCMRIFFDecoder/index.html"
+											>WCMRIFFDecoder</a>
+					
+			</h4>
+
+						<h4 title="WCMRIFFEncoder">
+
+								<a href="../api-WCMRIFFEncoder/index.html"
+											>WCMRIFFEncoder</a>
+					
+			</h4>
+
+						<h4 title="WCMRenderingContext">
+
+								<a href="../api-WCMRenderingContext/index.html"
+											>WCMRenderingContext</a>
+					
+			</h4>
+
+						<h4 title="WCMSmoothener">
+
+								<a href="../api-WCMSmoothener/index.html"
+											>WCMSmoothener</a>
+					
+			</h4>
+
+						<h4 title="WCMSmoothenerFinisher">
+
+								<a href="../api-WCMSmoothenerFinisher/index.html"
+											>WCMSmoothenerFinisher</a>
+					
+			</h4>
+
+						<h4 title="WCMSolidColorStrokeBrush">
+
+								<a href="../api-WCMSolidColorStrokeBrush/index.html"
+											>WCMSolidColorStrokeBrush</a>
+					
+			</h4>
+
+						<h4 title="WCMSpeedPathBuilder">
+
+								<a href="../api-WCMSpeedPathBuilder/index.html"
+											>WCMSpeedPathBuilder</a>
+					
+			</h4>
+
+						<h4 title="WCMStrokeBrush">
+
+								<a href="../api-WCMStrokeBrush/index.html"
+											>WCMStrokeBrush</a>
+					
+			</h4>
+
+						<h4 title="WCMStrokeRenderer">
+
+								<a href="../api-WCMStrokeRenderer/index.html"
+											>WCMStrokeRenderer</a>
+					
+			</h4>
+
+						<h4 title="WCMTransformableProtocol">
+
+								<a href="../api-WCMTransformableProtocol/index.html"
+											>WCMTransformableProtocol</a>
+					
+			</h4>
+
+						<h4 title="WCMVersion">
+
+								<a href="../api-WCMVersion/index.html"
+											>WCMVersion</a>
+					
+			</h4>
+
+						<h4 title="WCMWILLFileFormatDecoder">
+
+								<a href="../api-WCMWILLFileFormatDecoder/index.html"
+											>WCMWILLFileFormatDecoder</a>
+					
+			</h4>
+
+						<h4 title="WCMWILLFileFormatEncoder">
+
+								<a href="../api-WCMWILLFileFormatEncoder/index.html"
+											>WCMWILLFileFormatEncoder</a>
+					
+			</h4>
+
+							</div>
+							<h3 title="Constants">
+
+			Constants
+			</h3>
+
+							<div>
+					<h4 title="WCMBlendMode">
+
+								<a href="../api-WCMBlendMode/index.html"
+											>WCMBlendMode</a>
+					
+			</h4>
+
+						<h4 title="WCMInputPhase">
+
+								<a href="../api-WCMInputPhase/index.html"
+											>WCMInputPhase</a>
+					
+			</h4>
+
+						<h4 title="WCMPropertyFunction">
+
+								<a href="../api-WCMPropertyFunction/index.html"
+											>WCMPropertyFunction</a>
+					
+			</h4>
+
+						<h4 title="WCMPropertyName">
+
+								<a href="../api-WCMPropertyName/index.html"
+											>WCMPropertyName</a>
+					
+			</h4>
+
+						<h4 title="WCMStrokeBrushRotation">
+
+								<a href="../api-WCMStrokeBrushRotation/index.html"
+											>WCMStrokeBrushRotation</a>
+					
+			</h4>
+
+							</div>
+							<h3 title="Index">
+
+								<a href="../api-index/index.html"
+											>Index</a>
+					
+			</h3>
+
+						<h3 title="Hierarchy">
+
+								<a href="../api-hierarchy/index.html"
+											>Hierarchy</a>
+					
+			</h3>
+
+			
+	</nav>
+</div><div id="page_content" class='page-content api ios'>
+	
+<div id="post-9" class="page">
+	<h1>WCMAbstractPathBuilder Class Reference</h1>
+<p><a href="../api-index/index.html">Index</a> | <a href="../api-hierarchy/index.html">Hierarchy</a></p>
+<p>Inherits from | NSObject
+Declared in | WacomInkPath.h</p>
+<p>Available in <em>1.2</em> and later.</p>
+<h2>Overview</h2>
+<hr />
+<p>WCMAbstractPathBuilder and its two concrete subclasses: WCMSpeedPathBuilder and WCMPressurePathBuilder, are used to translate user input into geometry representation of a stroke. Roughly said it converts a series of (x,y) or (x,y,pressure) data into series of (x, y, width, alpha) control points of a spline. Those control points than could be rendered as stroke, or used in other ways. Each point is represented by the following numbers (of type float) in this order: &quot;x&quot;, &quot;y&quot; , &quot;width&quot; and &quot;alpha&quot;. The &quot;x&quot; and &quot;y&quot; values are always present. The &quot;width&quot; and &quot;alpha&quot; are included only when they are configured by the <a href="index.html#//api/name/setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:">[WCMAbstractPathBuilder setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:]</a> method. The <a href="index.html#//api/name/calculateStride">[WCMAbstractPathBuilder calculateStride]</a> method returns the number of properties representing each point (it is 2 when only &quot;x&quot; and &quot;y&quot; are present, 3 when we have &quot;x&quot;, &quot;y&quot; and &quot;width&quot; or &quot;x&quot;, &quot;y&quot; and &quot;alpha&quot; and 4 when we have  &quot;x&quot;, &quot;y&quot; , &quot;width&quot; and &quot;alpha&quot;).</p>
+<p>The typical usage of the class is the following:</p>
+<ul>
+<li>
+<p>You configure the <a href="index.html#//api/name/setNormalizationConfigWithMinValue:andMaxValue:">[WCMAbstractPathBuilder setNormalizationConfigWithMinValue:andMaxValue:]</a>.</p>
+</li>
+<li>
+<p>You configure the <a href="index.html#//api/name/setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:">[WCMAbstractPathBuilder setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:]</a> for the &quot;width&quot; and/or &quot;alpha&quot; if we want them to vary depending on the user input.</p>
+</li>
+<li>
+<p>You call <a href="index.html#//api/name/addPointWithPhase:andX:andY:andTimestamp:orPressure:">[WCMAbstractPathBuilder addPointWithPhase:andX:andY:andTimestamp:orPressure:]</a> for every UITouch event.</p>
+</li>
+<li>
+<p>Optionally you smooth out the result of the previous step, using the WCMMultiChannelSmoothener class.</p>
+</li>
+<li>
+<p>You pass the result of the previous step to the <a href="index.html#//api/name/addPathPart:">[WCMAbstractPathBuilder addPathPart:]</a> method.</p>
+</li>
+<li>You draw the returned result using <a href="../api-WCMPathAppendResult/index.html#//api/name/addedPath">[WCMPathAppendResult addedPath]</a>.</li>
+</ul>
+<h2>Tasks</h2>
+<hr />
+<p><a href="index.html#//api/name/setMovementThreshold:">&ndash;&nbsp;setMovementThreshold:</a>  </p>
+<p><a href="index.html#//api/name/calculateStride">&ndash;&nbsp;calculateStride</a>  </p>
+<p><a href="index.html#//api/name/pointAtIndex:">&ndash;&nbsp;pointAtIndex:</a>  </p>
+<p><a href="index.html#//api/name/pointsCount">&ndash;&nbsp;pointsCount</a>  </p>
+<p><a href="index.html#//api/name/setNormalizationConfigWithMinValue:andMaxValue:">&ndash;&nbsp;setNormalizationConfigWithMinValue:andMaxValue:</a>  </p>
+<p><a href="index.html#//api/name/setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:">&ndash;&nbsp;setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:</a>  </p>
+<p><a href="index.html#//api/name/addPathPart:">&ndash;&nbsp;addPathPart:</a>  </p>
+<p><a href="index.html#//api/name/createPreliminaryPath">&ndash;&nbsp;createPreliminaryPath</a>  </p>
+<p><a href="index.html#//api/name/finishPreliminaryPath:">&ndash;&nbsp;finishPreliminaryPath:</a>  </p>
+<p><a href="index.html#//api/name/addPointWithPhase:andX:andY:andTimestamp:orPressure:">&ndash;&nbsp;addPointWithPhase:andX:andY:andTimestamp:orPressure:</a>  </p>
+<h2>Instance Methods</h2>
+<hr />
+<p><a name="//api/name/addPathPart:" title="addPathPart:"></a></p>
+<h4>addPathPart:</h4>
+<p>Adds a new part to the path. The typical case is first to call the <a href="index.html#//api/name/addPointWithPhase:andX:andY:andTimestamp:orPressure:">[WCMAbstractPathBuilder addPointWithPhase:andX:andY:andTimestamp:orPressure:]</a> method and then pass the result of it to the <a href="index.html#//api/name/addPathPart:">[WCMAbstractPathBuilder addPathPart:]</a> method. Optionally you could smooth the result using <a href="../api-WCMMultiChannelSmoothener/index.html">WCMMultiChannelSmoothener</a> class before calling this method. </p>
+<pre><code class="objectivec">- (WCMPathAppendResult *)addPathPart:(WCMFloatVectorPointer *)points</code></pre>
+<h5>Parameters</h5>
+<p><em>points</em></p>
+<p>&nbsp;&nbsp; Instance of the <a href="../api-WCMFloatVectorPointer/index.html">WCMFloatVectorPointer</a> class containing the control points of the path.</p>
+<h5>Return Value</h5>
+<p>&nbsp;&nbsp; Instance of type <a href="../api-WCMPathAppendResult/index.html">WCMPathAppendResult</a>.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Discussion</h5>
+<p>&nbsp;&nbsp; <b>The returned object is only valid while the instance is not modified and is alive. You should not store it. If you need to store the data, create a new <a href="../api-WCMFloatVector/index.html">WCMFloatVector</a> initialized with the data of the result</b><b>This property is only valid while the WCMAbstractPathBuilder instance is not modified and is alive. You should not store it. If you need to store the data, create a new <a href="../api-WCMFloatVector/index.html">WCMFloatVector</a> initialized with the data of the result</b></p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/addPointWithPhase:andX:andY:andTimestamp:orPressure:" title="addPointWithPhase:andX:andY:andTimestamp:orPressure:"></a></p>
+<h4>addPointWithPhase:andX:andY:andTimestamp:orPressure:</h4>
+<p>This method will call <a href="../api-WCMPressurePathBuilder/index.html#//api/name/addPointWithPhase:andX:andY:andPressue:">[WCMPressurePathBuilder addPointWithPhase:andX:andY:andPressue:]</a> or <a href="../api-WCMSpeedPathBuilder/index.html#//api/name/addPointWithPhase:andX:andY:andTimestamp:">[WCMSpeedPathBuilder addPointWithPhase:andX:andY:andTimestamp:]</a> depending of concrete class.</p>
+<p>The method calculates a path part (a set of control points) from the provided input. The returned path part can be modified by clients (for example it can be smoothed). After that the part should be added it to the currently built path with the <a href="index.html#//api/name/addPathPart:">[WCMAbstractPathBuilder addPathPart:]</a> method.  </p>
+<pre><code class="objectivec">- (WCMFloatVectorPointer *)addPointWithPhase:(WCMInputPhase)phase andX:(float)x andY:(float)y andTimestamp:(double)timestamp orPressure:(float)pressure</code></pre>
+<h5>Parameters</h5>
+<p><em>phase</em></p>
+<p>&nbsp;&nbsp; The phase of the input.</p>
+<p><em>x</em></p>
+<p>&nbsp;&nbsp; The x of the input.</p>
+<p><em>y</em></p>
+<p>&nbsp;&nbsp; The y of the input.</p>
+<p><em>timestamp</em></p>
+<p>&nbsp;&nbsp; The timestamp of the input (in seconds).</p>
+<p><em>pressure</em></p>
+<p>&nbsp;&nbsp; The value of the pressure sensor.</p>
+<h5>Return Value</h5>
+<p>&nbsp;&nbsp; Array of the points added.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Discussion</h5>
+<p>&nbsp;&nbsp; <b>The returned object is only valid while the instance is not modified and is alive. You should not store it. If you need to store the data, create a new <a href="../api-WCMFloatVector/index.html">WCMFloatVector</a> initialized with the data of the result</b></p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/calculateStride" title="calculateStride"></a></p>
+<h4>calculateStride</h4>
+<p>Calculates the stride of the points produced by the PathBuilder. The stride is the offset from one control point to the next. The control points are returned by the <a href="index.html#//api/name/addPathPart:">[WCMAbstractPathBuilder addPathPart:]</a> method.  </p>
+<pre><code class="objectivec">- (int)calculateStride</code></pre>
+<h5>Return Value</h5>
+<p>&nbsp;&nbsp; The stride of the points produced by the PathBuilder.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Discussion</h5>
+<p>&nbsp;&nbsp; A path builder could be configured to produce points that have &quot;x&quot;,&quot;y&quot;, &quot;width&quot; and &quot;alpha&quot; fields. The default value of the side is 2 (meaning the control points have “x” and “y” properties). If you call the <a href="index.html#//api/name/setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:">[WCMAbstractPathBuilder setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:]</a> method for the “width” or “alpha”, the stride will become 3. If you configure both of them the stride will be 4.</p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/createPreliminaryPath" title="createPreliminaryPath"></a></p>
+<h4>createPreliminaryPath</h4>
+<p>The method calculates a path part (a set of control points) without updating the path builder state. This path part will behave like the path is being finished. The returned path part can be modified by clients (for example, it can be smoothed). After that the part should be passed to the <a href="index.html#//api/name/finishPreliminaryPath:">[WCMAbstractPathBuilder finishPreliminaryPath:]</a> method. </p>
+<pre><code class="objectivec">- (WCMFloatVectorPointer *)createPreliminaryPath</code></pre>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Discussion</h5>
+<p>&nbsp;&nbsp; <b>The returned object is only valid while the instance is not modified and is alive. You should not store it. If you need to store the data, create a new <a href="../api-WCMFloatVector/index.html">WCMFloatVector</a> initialized with the data of the result</b></p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/finishPreliminaryPath:" title="finishPreliminaryPath:"></a></p>
+<h4>finishPreliminaryPath:</h4>
+<p>Gets the preliminary path for the path ending.  </p>
+<pre><code class="objectivec">- (WCMFloatVectorPointer *)finishPreliminaryPath:(WCMFloatVectorPointer *)points</code></pre>
+<h5>Parameters</h5>
+<p><em>points</em></p>
+<p>&nbsp;&nbsp; Instance of the <a href="../api-WCMFloatVectorPointer/index.html">WCMFloatVectorPointer</a> class containing the control points of the path.</p>
+<h5>Return Value</h5>
+<p>&nbsp;&nbsp; array of points.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Discussion</h5>
+<p>&nbsp;&nbsp; <b>The returned object is only valid while the instance is not modified and is alive. You should not store it. If you need to store the data, create a new <a href="../api-WCMFloatVector/index.html">WCMFloatVector</a> initialized with the data of the result</b></p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/pointAtIndex:" title="pointAtIndex:"></a></p>
+<h4>pointAtIndex:</h4>
+<p>Returns the control point of the path at the index specified. The WCMStrokePoint structure has all the fields that the path could have(x,y,width and alpha). If the path is missing fields (for example has only x and y), the missing fields will be set to NAN.   </p>
+<pre><code class="objectivec">- (WCMStrokePoint)pointAtIndex:(int)index</code></pre>
+<h5>Parameters</h5>
+<p><em>index</em></p>
+<p>&nbsp;&nbsp; The index of the point returned.</p>
+<h5>Return Value</h5>
+<p>&nbsp;&nbsp; The point of the path at index.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/pointsCount" title="pointsCount"></a></p>
+<h4>pointsCount</h4>
+<p>Returns the count of the control points.    </p>
+<pre><code class="objectivec">- (size_t)pointsCount</code></pre>
+<h5>Return Value</h5>
+<p>&nbsp;&nbsp; The count of all points.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/setMovementThreshold:" title="setMovementThreshold:"></a></p>
+<h4>setMovementThreshold:</h4>
+<p>Sets the movement threshold - the minimal distance threshold between two input events. The default value is 0, meaning that there is no restriction on the distance (<b>but input evnt with exactly the same values for x and y as the previous one, will still be ignored!</b>). For values greater than 0, the path builder will ignore new points, until the distance from the new point to the previously added point is greater than the parameter </p>
+<pre><code class="objectivec">- (void)setMovementThreshold:(float)minMovement</code></pre>
+<h5>Parameters</h5>
+<p><em>minMovement</em></p>
+<p>&nbsp;&nbsp; The minimum movement.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/setNormalizationConfigWithMinValue:andMaxValue:" title="setNormalizationConfigWithMinValue:andMaxValue:"></a></p>
+<h4>setNormalizationConfigWithMinValue:andMaxValue:</h4>
+<p>Sets the min and max values that will be used for clamping the input values. Input values could be pressure or speed, depending of the concrete class used (<a href="../api-WCMSpeedPathBuilder/index.html">WCMSpeedPathBuilder</a> or <a href="../api-WCMPressurePathBuilder/index.html">WCMPressurePathBuilder</a>). For <a href="../api-WCMSpeedPathBuilder/index.html">WCMSpeedPathBuilder</a>, this method specifies the minimum and maximum speed (measured in points per second) in interest. For the <a href="../api-WCMPressurePathBuilder/index.html">WCMPressurePathBuilder</a> this method should set the range of valid pressure values.   </p>
+<pre><code class="objectivec">- (void)setNormalizationConfigWithMinValue:(float)minValue andMaxValue:(float)maxValue</code></pre>
+<h5>Parameters</h5>
+<p><em>minValue</em></p>
+<p>&nbsp;&nbsp; The minimum value.</p>
+<p><em>maxValue</em></p>
+<p>&nbsp;&nbsp; The maximum value.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<p><a name="//api/name/setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:" title="setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:"></a></p>
+<h4>setPropertyConfigWithName:andMinValue:andMaxValue:andInitialValue:andFinalValue:andFunction:andParameter:andFlip:</h4>
+<p>Sets a property configuration. A property configuration guides the values that will be produced. A property could be the  width, or the alpha of the path for each control point.   </p>
+<pre><code class="objectivec">- (void)setPropertyConfigWithName:(WCMPropertyName)name andMinValue:(float)minValue andMaxValue:(float)maxValue andInitialValue:(float)initialValue andFinalValue:(float)finalValue andFunction:(WCMPropertyFunction)function andParameter:(float)functionParameter andFlip:(bool)flip</code></pre>
+<h5>Parameters</h5>
+<p><em>name</em></p>
+<p>&nbsp;&nbsp; The name  of the property that will be configured. See <a href="../api-WCMPropertyName/index.html">WCMPropertyName</a>.</p>
+<p><em>minValue</em></p>
+<p>&nbsp;&nbsp; The minimum value of the property.</p>
+<p><em>maxValue</em></p>
+<p>&nbsp;&nbsp; The maximum value of the property.</p>
+<p><em>initialValue</em></p>
+<p>&nbsp;&nbsp; The initial value of the property at the begging of the path. Could be set to NAN. In this case the value will be same as the next point.</p>
+<p><em>finalValue</em></p>
+<p>&nbsp;&nbsp; The final value of the property at the end of the stroke. Could be set to NAN. In this case the value will be same as the previous point.</p>
+<p><em>function</em></p>
+<p>&nbsp;&nbsp; The function that will convert the input into a property value. See <a href="../api-WCMPropertyFunction/index.html">WCMPropertyFunction</a>.</p>
+<p><em>functionParameter</em></p>
+<p>&nbsp;&nbsp; The parameter if the function. Parameter of the <a href="../api-WCMPropertyFunction/index.html">WCMPropertyFunction</a> specified by the function parameter.</p>
+<p><em>flip</em></p>
+<p>&nbsp;&nbsp; If set to NO, the property will increase as the input increase. Otherwise the property will increase as the input decreases.</p>
+<h5>Availability</h5>
+<p>Available in <em>1.2</em> and later.</p>
+<h5>Declared In</h5>
+<p>WacomInkPath.h  </p>
+<hr />
+<p><a href="../api-index/index.html">Index</a> | <a href="../api-hierarchy/index.html">Hierarchy</a></p>
+</div> <!-- page -->
+</div> <!-- page_content -->
+
+	</div><!-- #sitewrapper -->
+
+	<footer>
+		<img src="../../wp-content/themes/will-doc/images/img_logo_wacom.png" alt="" />
+<!--
+		<span>&nbsp;</span>
+		<a href="/contact.html">Contact</a>
+		<a href="/support.html">Support</a>
+-->
+	</footer>
+</body>
+</html>

@@ -14,6 +14,9 @@
 		CA24D60E1D1F02CF0026DF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA24D60D1D1F02CF0026DF48 /* Assets.xcassets */; };
 		CA24D6111D1F02CF0026DF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA24D60F1D1F02CF0026DF48 /* LaunchScreen.storyboard */; };
 		DD2D5CFD1D1F08130085982B /* WILLCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D5CFC1D1F08130085982B /* WILLCore.framework */; };
+		E78F15A01D1F24850025BE55 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E78F159F1D1F24850025BE55 /* libc++.tbd */; };
+		E78F15A21D1F24920025BE55 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E78F15A11D1F24920025BE55 /* libz.tbd */; };
+		E78F15AA1D1F2C300025BE55 /* DrawView_BuildingPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F15A91D1F2C300025BE55 /* DrawView_BuildingPaths.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,11 @@
 		CA24D6101D1F02CF0026DF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA24D6121D1F02CF0026DF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD2D5CFC1D1F08130085982B /* WILLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WILLCore.framework; sourceTree = "<group>"; };
+		E78F159F1D1F24850025BE55 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E78F15A11D1F24920025BE55 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E78F15A71D1F29CD0025BE55 /* Geofitti-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geofitti-Bridging-Header.h"; sourceTree = "<group>"; };
+		E78F15A81D1F2C2A0025BE55 /* DrawView_BuildingPaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView_BuildingPaths.h; sourceTree = "<group>"; };
+		E78F15A91D1F2C300025BE55 /* DrawView_BuildingPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView_BuildingPaths.m; sourceTree = "<group>"; };
 		FD6655E6B14948B4727AAE5C /* Pods-Geofitti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geofitti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geofitti/Pods-Geofitti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78F15A21D1F24920025BE55 /* libz.tbd in Frameworks */,
+				E78F15A01D1F24850025BE55 /* libc++.tbd in Frameworks */,
 				BBEBC1C3FDE6AEBC2CBDE17D /* Pods_Geofitti.framework in Frameworks */,
 				DD2D5CFD1D1F08130085982B /* WILLCore.framework in Frameworks */,
 			);
@@ -46,6 +56,8 @@
 		18232E88E28F2A84D2ECE12E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E78F15A11D1F24920025BE55 /* libz.tbd */,
+				E78F159F1D1F24850025BE55 /* libc++.tbd */,
 				7F959437B711E13A745017C9 /* Pods_Geofitti.framework */,
 				DD2D5CFC1D1F08130085982B /* WILLCore.framework */,
 			);
@@ -74,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */,
+				E78F15A71D1F29CD0025BE55 /* Geofitti-Bridging-Header.h */,
+				E78F15AB1D1F31040025BE55 /* DrawView_BuildingPaths */,
 				CA24D6081D1F02CF0026DF48 /* ViewController.swift */,
 				CA24D60A1D1F02CF0026DF48 /* Main.storyboard */,
 				CA24D60D1D1F02CF0026DF48 /* Assets.xcassets */,
@@ -90,6 +104,15 @@
 				1484B38EE15C986C8A200E31 /* Pods-Geofitti.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E78F15AB1D1F31040025BE55 /* DrawView_BuildingPaths */ = {
+			isa = PBXGroup;
+			children = (
+				E78F15A81D1F2C2A0025BE55 /* DrawView_BuildingPaths.h */,
+				E78F15A91D1F2C300025BE55 /* DrawView_BuildingPaths.m */,
+			);
+			name = DrawView_BuildingPaths;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78F15AA1D1F2C300025BE55 /* DrawView_BuildingPaths.m in Sources */,
 				CA24D6091D1F02CF0026DF48 /* ViewController.swift in Sources */,
 				CA24D6071D1F02CF0026DF48 /* AppDelegate.swift in Sources */,
 			);
@@ -338,6 +362,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Geofitti/Geofitti-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -355,6 +380,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Geofitti/Geofitti-Bridging-Header.h";
 			};
 			name = Release;
 		};
