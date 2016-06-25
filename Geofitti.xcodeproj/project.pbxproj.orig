@@ -88,8 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */,
+<<<<<<< HEAD
+				E78F15A71D1F29CD0025BE55 /* Geofitti-Bridging-Header.h */,
+				E78F15AB1D1F31040025BE55 /* DrawView_BuildingPaths */,
+				CA24D6081D1F02CF0026DF48 /* ViewController.swift */,
+=======
 				CA24D6081D1F02CF0026DF48 /* CameraViewController.swift */,
 				A20665201D1F2BAF005C4F08 /* GrafittiViewController.swift */,
+>>>>>>> camera-vc
 				CA24D60A1D1F02CF0026DF48 /* Main.storyboard */,
 				CA24D60D1D1F02CF0026DF48 /* Assets.xcassets */,
 				CA24D60F1D1F02CF0026DF48 /* LaunchScreen.storyboard */,
@@ -239,7 +245,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+				E78F15AA1D1F2C300025BE55 /* DrawView_BuildingPaths.m in Sources */,
+				CA24D6091D1F02CF0026DF48 /* ViewController.swift in Sources */,
+=======
 				CA24D6091D1F02CF0026DF48 /* CameraViewController.swift in Sources */,
+>>>>>>> camera-vc
 				CA24D6071D1F02CF0026DF48 /* AppDelegate.swift in Sources */,
 				A20665211D1F2BAF005C4F08 /* GrafittiViewController.swift in Sources */,
 			);
@@ -366,7 +377,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
+				SWIFT_OBJC_BRIDGING_HEADER = "Geofitti/Geofitti-Bridging-Header.h";
+=======
 				PROVISIONING_PROFILE = "";
+>>>>>>> camera-vc
 			};
 			name = Debug;
 		};
@@ -386,7 +401,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
+				SWIFT_OBJC_BRIDGING_HEADER = "Geofitti/Geofitti-Bridging-Header.h";
+=======
 				PROVISIONING_PROFILE = "";
+>>>>>>> camera-vc
 			};
 			name = Release;
 		};

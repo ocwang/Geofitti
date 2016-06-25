@@ -8,7 +8,11 @@
         <!--Camera View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+<<<<<<< HEAD
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Geofitti" customModuleProvider="target" sceneMemberID="viewController">
+=======
                 <viewController id="BYZ-38-t0r" customClass="CameraViewController" customModule="Geofitti" customModuleProvider="target" sceneMemberID="viewController">
+>>>>>>> camera-vc
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
