@@ -20,6 +20,8 @@
 		E78F15AA1D1F2C300025BE55 /* DrawView_BuildingPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F15A91D1F2C300025BE55 /* DrawView_BuildingPaths.m */; };
 		E78F15B01D1F3C230025BE55 /* DrawView_DisplayingRasterImages.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F15AF1D1F3C230025BE55 /* DrawView_DisplayingRasterImages.m */; };
 		E78F15B21D1F3CDB0025BE55 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = E78F15B11D1F3CDB0025BE55 /* pizza.png */; };
+		E7F48A881D1F506A0023D74A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F48A871D1F506A0023D74A /* CameraViewController.swift */; };
+		E7F48A8A1D1F50810023D74A /* GrafittiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F48A891D1F50810023D74A /* GrafittiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		E78F15AE1D1F3C1F0025BE55 /* DrawView_DisplayingRasterImages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView_DisplayingRasterImages.h; sourceTree = "<group>"; };
 		E78F15AF1D1F3C230025BE55 /* DrawView_DisplayingRasterImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView_DisplayingRasterImages.m; sourceTree = "<group>"; };
 		E78F15B11D1F3CDB0025BE55 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		E7F48A871D1F506A0023D74A /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E7F48A891D1F50810023D74A /* GrafittiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrafittiViewController.swift; sourceTree = "<group>"; };
 		FD6655E6B14948B4727AAE5C /* Pods-Geofitti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geofitti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geofitti/Pods-Geofitti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,8 +96,10 @@
 		CA24D6051D1F02CF0026DF48 /* Geofitti */ = {
 			isa = PBXGroup;
 			children = (
+				E7F48A891D1F50810023D74A /* GrafittiViewController.swift */,
 				CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */,
 				E78F15A71D1F29CD0025BE55 /* Geofitti-Bridging-Header.h */,
+				E7F48A871D1F506A0023D74A /* CameraViewController.swift */,
 				E78F15B31D1F3D410025BE55 /* DrawView_DisplayingRasterImages */,
 				E78F15AB1D1F31040025BE55 /* DrawView_BuildingPaths */,
 				CA24D6081D1F02CF0026DF48 /* SampleViewController.swift */,
@@ -168,7 +174,7 @@
 				TargetAttributes = {
 					CA24D6021D1F02CF0026DF48 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = WZ4NEVB3RP;
+						DevelopmentTeam = CRQLR7R8J3;
 					};
 				};
 			};
@@ -261,7 +267,9 @@
 				E78F15B01D1F3C230025BE55 /* DrawView_DisplayingRasterImages.m in Sources */,
 				CA24D6091D1F02CF0026DF48 /* SampleViewController.swift in Sources */,
 				CA24D6071D1F02CF0026DF48 /* AppDelegate.swift in Sources */,
+				E7F48A8A1D1F50810023D74A /* GrafittiViewController.swift in Sources */,
 				A20665211D1F2BAF005C4F08 /* GrafittiViewController.swift in Sources */,
+				E7F48A881D1F506A0023D74A /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
