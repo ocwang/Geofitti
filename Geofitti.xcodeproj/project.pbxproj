@@ -172,7 +172,7 @@
 				TargetAttributes = {
 					CA24D6021D1F02CF0026DF48 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 7VBC22W4P6;
+						DevelopmentTeam = WZ4NEVB3RP;
 					};
 				};
 			};
@@ -384,12 +384,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Pods",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Geofitti/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -406,12 +406,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Pods",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Geofitti/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

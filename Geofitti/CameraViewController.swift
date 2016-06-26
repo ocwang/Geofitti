@@ -40,8 +40,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         dismissViewControllerAnimated(true) {
             self.performSegueWithIdentifier("editPhotoSegue", sender: self)
         }
-        
-        
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
