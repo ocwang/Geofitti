@@ -9,13 +9,17 @@
 import UIKit
 import GoogleMaps
 
-class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+
+class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     var image: UIImage!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
+        
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2DMake(37.422089, -122.084047)
         marker.title = "GooglePlex"
@@ -28,6 +32,8 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         cameraButton.addTarget(self, action: #selector(OpenCamera(_:)), forControlEvents: .TouchUpInside)
         cameraButton.setTitleColor(UIColor.redColor(), forState: .Normal)
         self.view.addSubview(cameraButton)
+        
+        
         
     }
     
@@ -60,12 +66,23 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     //        }
     //    }
     
+
+
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        
+        
+    
+    
         dismissViewControllerAnimated(true) {
+            
+            
             self.performSegueWithIdentifier("editPhotoSegue", sender: self)
         }
     }
+
+    
+    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "editPhotoSegue" {
@@ -74,7 +91,9 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         }
     }
     
-    
+    @IBAction func unwindToMaps(segue: UIStoryboardSegue) {
+        
+    }
     
 }
 
