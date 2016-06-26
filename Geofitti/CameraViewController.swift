@@ -22,16 +22,15 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         // Dispose of any resources that can be recreated.
     }
 
-
-
     @IBAction func openCamera(sender: UIButton) {
-        
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera) {
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
             imagePicker.sourceType = .Camera
             imagePicker.allowsEditing = false
             self.presentViewController(imagePicker, animated: true, completion: nil)
+        } else {
+            
         }
     }
     
