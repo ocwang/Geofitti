@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="305" y="353"/>
         </scene>
-        <!--Grafitti View Controller-->
+        <!--View Controller-->
         <scene sceneID="9Qj-3y-fCL">
             <objects>
-                <viewController id="VDz-ly-39j" customClass="GrafittiViewController" customModule="Geofitti" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VDz-ly-39j" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IVi-cA-e8b"/>
                         <viewControllerLayoutGuide type="bottom" id="R2d-gi-vkJ"/>
