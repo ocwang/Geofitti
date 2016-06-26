@@ -10,6 +10,7 @@ target ‘Geofitti’ do
   pod 'Parse'
   pod 'ParseFacebookUtilsV4'
   pod 'ParseUI'
+  pod ‘GoogleMaps’
 
 
 end

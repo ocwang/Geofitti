@@ -8,9 +8,9 @@
 
 import UIKit
 import Parse
+import GoogleMaps
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
@@ -38,6 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let acl = PFACL()
         acl.publicReadAccess = true
         PFACL.setDefaultACL(acl, withAccessForCurrentUser: true)
+        GMSServices.provideAPIKey("AIzaSyCZEzXDVL23Q11ToHXWDuVwXfmgDUFzzac")
         
         return true
     }
