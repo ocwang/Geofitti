@@ -172,7 +172,7 @@
 				TargetAttributes = {
 					CA24D6021D1F02CF0026DF48 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = WZ4NEVB3RP;
+						DevelopmentTeam = 7VBC22W4P6;
 					};
 				};
 			};
@@ -388,6 +388,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Geofitti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +410,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Geofitti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geofitti.Geofitti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
