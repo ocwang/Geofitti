@@ -46,6 +46,8 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "editPhotoSegue" {
+            let destination = segue.destinationViewController as! GrafittiViewController
+            destination.image = imageViewTemporary.image
         }
         
         

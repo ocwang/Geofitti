@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2AFDB801D1F54AD004DE413 /* GrafittiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AFDB7F1D1F54AD004DE413 /* GrafittiViewController.swift */; };
 		BBEBC1C3FDE6AEBC2CBDE17D /* Pods_Geofitti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F959437B711E13A745017C9 /* Pods_Geofitti.framework */; };
 		CA24D6071D1F02CF0026DF48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */; };
 		CA24D6091D1F02CF0026DF48 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24D6081D1F02CF0026DF48 /* SampleViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1484B38EE15C986C8A200E31 /* Pods-Geofitti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geofitti.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geofitti/Pods-Geofitti.release.xcconfig"; sourceTree = "<group>"; };
 		7F959437B711E13A745017C9 /* Pods_Geofitti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geofitti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2AFDB7F1D1F54AD004DE413 /* GrafittiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrafittiViewController.swift; sourceTree = "<group>"; };
 		CA24D6031D1F02CF0026DF48 /* Geofitti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geofitti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA24D6081D1F02CF0026DF48 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				CA24D6061D1F02CF0026DF48 /* AppDelegate.swift */,
 				E78F15A71D1F29CD0025BE55 /* Geofitti-Bridging-Header.h */,
 				E7F48A871D1F506A0023D74A /* CameraViewController.swift */,
+				A2AFDB7F1D1F54AD004DE413 /* GrafittiViewController.swift */,
 				E78F15B31D1F3D410025BE55 /* DrawView_DisplayingRasterImages */,
 				E78F15AB1D1F31040025BE55 /* DrawView_BuildingPaths */,
 				CA24D6081D1F02CF0026DF48 /* SampleViewController.swift */,
@@ -128,8 +131,8 @@
 		E78F15B31D1F3D410025BE55 /* DrawView_DisplayingRasterImages */ = {
 			isa = PBXGroup;
 			children = (
-				E78F15AF1D1F3C230025BE55 /* DrawView_DisplayingRasterImages.m */,
 				E78F15AE1D1F3C1F0025BE55 /* DrawView_DisplayingRasterImages.h */,
+				E78F15AF1D1F3C230025BE55 /* DrawView_DisplayingRasterImages.m */,
 			);
 			name = DrawView_DisplayingRasterImages;
 			sourceTree = "<group>";
@@ -169,7 +172,7 @@
 				TargetAttributes = {
 					CA24D6021D1F02CF0026DF48 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = CRQLR7R8J3;
+						DevelopmentTeam = WZ4NEVB3RP;
 					};
 				};
 			};
@@ -260,6 +263,7 @@
 			files = (
 				E78F15AA1D1F2C300025BE55 /* DrawView_BuildingPaths.m in Sources */,
 				E78F15B01D1F3C230025BE55 /* DrawView_DisplayingRasterImages.m in Sources */,
+				A2AFDB801D1F54AD004DE413 /* GrafittiViewController.swift in Sources */,
 				CA24D6091D1F02CF0026DF48 /* SampleViewController.swift in Sources */,
 				CA24D6071D1F02CF0026DF48 /* AppDelegate.swift in Sources */,
 				E7F48A881D1F506A0023D74A /* CameraViewController.swift in Sources */,
