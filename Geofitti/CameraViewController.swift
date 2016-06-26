@@ -26,6 +26,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let cameraButton = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 50))
         cameraButton.setTitle("Camera", forState: .Normal)
         cameraButton.addTarget(self, action: #selector(OpenCamera(_:)), forControlEvents: .TouchUpInside)
+        cameraButton.setTitleColor(UIColor.redColor(), forState: .Normal)
         self.view.addSubview(cameraButton)
         
     }
