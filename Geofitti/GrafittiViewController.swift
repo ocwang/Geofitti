@@ -15,7 +15,7 @@ class GrafittiViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+
         
         let drawView = DrawView_DisplayingRasterImages(frame: self.view.frame, withImage: self.image)
         self.view.addSubview(drawView)
@@ -26,6 +26,11 @@ class GrafittiViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func savePhoto(sender: UIBarButtonItem) {
+        let post = Post()
+        post.image.value = image
+        post.uploadPost()
+    }
 
     /*
     // MARK: - Navigation

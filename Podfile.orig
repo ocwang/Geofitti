@@ -5,12 +5,20 @@ target 'Geofitti' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
+<<<<<<< HEAD
+    pod 'Bond', '4.0.0'
+    pod "ConvenienceKit"
+    pod 'Parse'
+    pod 'ParseFacebookUtilsV4'
+    pod 'ParseUI'
+=======
   pod 'Bond', '4.0.0'
   pod "ConvenienceKit"
   pod 'Parse'
   pod 'ParseFacebookUtilsV4'
   pod 'ParseUI'
   pod ‘GoogleMaps’
+>>>>>>> 046e8365718019136b034e32089965dc4dca1985
 
 
 end
