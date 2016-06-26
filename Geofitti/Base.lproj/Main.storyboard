@@ -36,7 +36,7 @@
             </objects>
             <point key="canvasLocation" x="1116.5" y="352.5"/>
         </scene>
-        <!--Grafitti View Controller-->
+        <!--Grafitti Zone-->
         <scene sceneID="9Qj-3y-fCL">
             <objects>
                 <viewController id="VDz-ly-39j" customClass="GrafittiViewController" customModule="Geofitti" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,6 +49,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Grafitti Zone" id="Tnw-4F-tS1">
+                        <barButtonItem key="leftBarButtonItem" title="Item" systemItem="cancel" id="tzf-ho-oo4"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="save" id="Fpk-su-sa2"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wpP-0j-Z28" userLabel="First Responder" sceneMemberID="firstResponder"/>
