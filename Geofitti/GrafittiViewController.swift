@@ -11,17 +11,14 @@ import UIKit
 class GrafittiViewController: UIViewController {
     
     var image: UIImage!
-
-    @IBOutlet weak var grafittiImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        grafittiImageView.image = image
         // Do any additional setup after loading the view.
         
         
-        let drawView = DrawView_BuildingPaths(frame: self.view.frame)
-        view.insertSubview(drawView, belowSubview: grafittiImageView)
+        let drawView = DrawView_DisplayingRasterImages(frame: self.view.frame, withImage: self.image)
+        self.view.addSubview(drawView)
     }
 
     override func didReceiveMemoryWarning() {

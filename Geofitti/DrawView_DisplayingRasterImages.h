@@ -10,4 +10,7 @@
 
 @interface DrawView_DisplayingRasterImages : UIView
 
+@property (strong, nonatomic) UIImage *useThisImage;
+-(id) initWithFrame:(CGRect)frame withImage:(UIImage *)image;
+
 @end

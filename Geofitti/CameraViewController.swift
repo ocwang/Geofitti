@@ -10,7 +10,7 @@ import UIKit
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    @IBOutlet weak var imageViewTemporary: UIImageView!
+    var image: UIImage!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +36,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
-        imageViewTemporary.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        image = info[UIImagePickerControllerOriginalImage] as? UIImage
         dismissViewControllerAnimated(true) {
             self.performSegueWithIdentifier("editPhotoSegue", sender: self)
         }
@@ -47,11 +47,8 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "editPhotoSegue" {
             let destination = segue.destinationViewController as! GrafittiViewController
-            destination.image = imageViewTemporary.image
+            destination.image = image
         }
-        
-        
-        
     }
     
         

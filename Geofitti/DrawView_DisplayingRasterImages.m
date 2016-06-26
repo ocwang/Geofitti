@@ -9,6 +9,7 @@
 #import "DrawView_DisplayingRasterImages.h"
 #import <WILLCore/WILLCore.h>
 
+
 @implementation DrawView_DisplayingRasterImages
 {
     WCMRenderingContext * willContext;
@@ -23,6 +24,8 @@
     int pathStride;
     WCMStrokeBrush * pathBrush;
     WCMMultiChannelSmoothener * pathSmoothener;
+    
+    
 }
 
 + (Class) layerClass
@@ -30,11 +33,25 @@
     return [CAEAGLLayer class];
 }
 
--(id) initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
+-(id) initWithFrame:(CGRect)frame withImage:(UIImage *)image
 {
     self = [super initWithFrame:frame];
     if (self)
     {
+        
+        self.useThisImage = image;
+        
         [self initWillContext];
         
         [willContext setTarget:strokesLayer];
@@ -44,6 +61,8 @@
     }
     return self;
 }
+
+
 
 - (void) initWillContext
 {
@@ -70,13 +89,20 @@
         
         strokesLayer = [willContext layerWithWidth:viewLayer.width andHeight:viewLayer.height andScaleFactor:viewLayer.scaleFactor andUseTextureStorage:YES];
         
-        UIImage* img = [UIImage imageNamed:@"pizza.png"];
+        UIImage *image;
+        if (self.useThisImage) {
+            image = self.useThisImage;
+        } else {
+            image = [UIImage imageNamed:@"pizza.png"];
+        }
+        
+        
         imageLayer = [willContext layerWithWidth:self.frame.size.width
                                        andHeight:self.frame.size.height
-                                  andScaleFactor:img.scale
+                                  andScaleFactor:image.scale
                             andUseTextureStorage:YES];
         [willContext setTarget:imageLayer];
-        [willContext writePixelsInCurrentTargetFromUIImage:img];
+        [willContext writePixelsInCurrentTargetFromUIImage:image];
         
         pathBrush = [willContext solidColorBrush];
         
@@ -91,12 +117,14 @@
         strokeRenderer.brush = pathBrush;
         strokeRenderer.stride = pathStride;
         strokeRenderer.width = 1.25;
-        strokeRenderer.color = [UIColor redColor];
+        strokeRenderer.color = [UIColor blueColor];
     }
 }
 
 -(void) refreshViewInRect:(CGRect)rect
 {
+    printf("hello its me refresh in rect");
+    
     [willContext setTarget:viewLayer andClipRect:rect];
     
     [willContext drawLayer:imageLayer withSourceRect:rect andDestinationRect:rect andBlendMode:WCMBlendModeOverride];
@@ -106,6 +134,7 @@
     [strokeRenderer blendStrokeUpdatedAreaInLayer:viewLayer withBlendMode:WCMBlendModeNormal];
     
     [viewLayer present];
+    
 }
 
 - (void) processTouches:(NSSet *)touches withEvent:(UIEvent *)event
